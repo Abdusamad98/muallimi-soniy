@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright 2018, The Android Open Source Project
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~     http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
 
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -22,9 +7,9 @@
     app:startDestination="@+id/titleFragment">
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.android.navigation.TitleFragment"
+        android:name="com.example.android.navigation.screens.HomeFragment"
         android:label="@string/android_trivia"
-        tools:layout="@layout/fragment_title">
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_titleFragment_to_gameFragment"
             app:destination="@id/gameFragment"
@@ -32,74 +17,165 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_titleFragment_to_tajveedHomeFragment"
+            app:destination="@id/tajveedHomeFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.example.android.navigation.GameFragment"
+        android:name="com.example.android.navigation.screens.LettersFragment"
         android:label="@string/android_trivia"
-        tools:layout="@layout/fragment_game">
-        <action
-            android:id="@+id/action_gameFragment_to_gameOverFragment"
-            app:destination="@id/gameOverFragment"
-            app:enterAnim="@anim/fade_in"
-            app:exitAnim="@anim/fade_out"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
-            app:popUpTo="@+id/gameFragment"
-            app:popUpToInclusive="true" />
-        />
-        <action
-            android:id="@+id/action_gameFragment_to_gameWonFragment"
-            app:destination="@id/gameWonFragment"
-            app:enterAnim="@anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_right"
-            app:popEnterAnim="@anim/slide_in_right"
-            app:popExitAnim="@anim/slide_out_left"
-            app:popUpTo="@+id/gameFragment"
-            app:popUpToInclusive="true" />
-    </fragment>
-    <fragment
-        android:id="@+id/gameWonFragment"
-        android:name="com.example.android.navigation.GameWonFragment"
-        android:label="@string/android_trivia"
-        tools:layout="@layout/fragment_game_won">
-        <argument
-            android:name="numQuestions"
-            app:argType="integer" />
-        <argument
-            android:name="numCorrect"
-            app:argType="integer" />
-        <action
-            android:id="@+id/action_gameWonFragment_to_gameFragment"
-            app:destination="@id/gameFragment"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
-            app:popUpTo="@+id/titleFragment"/>
-    </fragment>
-    <fragment
-        android:id="@+id/gameOverFragment"
-        android:name="com.example.android.navigation.GameOverFragment"
-        android:label="@string/android_trivia"
-        tools:layout="@layout/fragment_game_over">
-        <action
-            android:id="@+id/action_gameOverFragment_to_gameFragment"
-            app:destination="@id/gameFragment"
-            app:enterAnim="@anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_right"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"
-            app:popUpTo="@+id/titleFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_letters"/>
     <fragment
         android:id="@+id/rulesFragment"
-        android:name="com.example.android.navigation.RulesFragment"
+        android:name="com.example.android.navigation.screens.RulesFragment"
         android:label="@string/title_trivia_rules"
-        tools:layout="@layout/fragment_rules" />
+        tools:layout="@layout/fragment_note" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.android.navigation.AboutFragment"
+        android:name="com.example.android.navigation.screens.AboutFragment"
         android:label="@string/title_about_trivia"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/tajveedHomeFragment"
+        android:name="com.example.android.navigation.screens.tajvid.TajveedHomeFragment"
+        android:label="Tajvid ilmi"
+        tools:layout="@layout/tajvid_home_fragment" >
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson2Fragment"
+            app:destination="@id/lesson2Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson4Fragment"
+            app:destination="@id/lesson4Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson3Fragment"
+            app:destination="@id/lesson3Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson1Fragment"
+            app:destination="@id/lesson1Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson5Fragment"
+            app:destination="@id/lesson5Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson6Fragment"
+            app:destination="@id/lesson6Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson7Fragment"
+            app:destination="@id/lesson7Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson8Fragment"
+            app:destination="@id/lesson8Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson9Fragment"
+            app:destination="@id/lesson9Fragment" />
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson10Fragment"
+            app:destination="@id/lesson10Fragment" />
+
+
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/lesson1Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson1Fragment"
+        android:label="Madli harflar"
+        tools:layout="@layout/lesson1_fragment" />
+    <fragment
+        android:id="@+id/lesson2Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson2Fragment"
+        android:label="Tashdidli harflar"
+        tools:layout="@layout/lesson2_fragment" />
+    <fragment
+        android:id="@+id/lesson3Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson3Fragment"
+        android:label="Tanvinli harflar"
+        tools:layout="@layout/lesson3_fragment" />
+    <fragment
+        android:id="@+id/lesson4Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson4Fragment"
+        android:label="Tanvinli tashdid"
+        tools:layout="@layout/lesson4_fragment" />
+    <fragment
+        android:id="@+id/lesson5Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson5Fragment"
+        android:label="Alif va hamza"
+        tools:layout="@layout/lesson5_fragment" />
+    <fragment
+        android:id="@+id/lesson6Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson6Fragment"
+        android:label="lesson6_fragment"
+        tools:layout="@layout/lesson6_fragment" />
+    <fragment
+        android:id="@+id/lesson7Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson7Fragment"
+        android:label="lesson7_fragment"
+        tools:layout="@layout/lesson7_fragment" />
+    <fragment
+        android:id="@+id/lesson8Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson8Fragment"
+        android:label="lesson8_fragment"
+        tools:layout="@layout/lesson8_fragment" />
+    <fragment
+        android:id="@+id/lesson9Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson9Fragment"
+        android:label="lesson9_fragment"
+        tools:layout="@layout/lesson9_fragment" />
+    <fragment
+        android:id="@+id/lesson10Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson10Fragment"
+        android:label="lesson10_fragment"
+        tools:layout="@layout/lesson10_fragment" />
+    <fragment
+        android:id="@+id/lesson11Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson11Fragment"
+        android:label="lesson11_fragment"
+        tools:layout="@layout/lesson11_fragment" />
+    <fragment
+        android:id="@+id/lesson12Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson12Fragment"
+        android:label="lesson12_fragment"
+        tools:layout="@layout/lesson12_fragment" />
+    <fragment
+        android:id="@+id/lesson13Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson13Fragment"
+        android:label="lesson13_fragment"
+        tools:layout="@layout/lesson13_fragment" />
+    <fragment
+        android:id="@+id/lesson14Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson14Fragment"
+        android:label="lesson14_fragment"
+        tools:layout="@layout/lesson14_fragment" />
+    <fragment
+        android:id="@+id/lesson15Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson15Fragment"
+        android:label="lesson15_fragment"
+        tools:layout="@layout/lesson15_fragment" />
+    <fragment
+        android:id="@+id/lesson16Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson16Fragment"
+        android:label="lesson16_fragment"
+        tools:layout="@layout/lesson16_fragment" />
+    <fragment
+        android:id="@+id/lesson17Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson17Fragment"
+        android:label="lesson17_fragment"
+        tools:layout="@layout/lesson17_fragment" />
+    <fragment
+        android:id="@+id/lesson18Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson18Fragment"
+        android:label="lesson18_fragment"
+        tools:layout="@layout/lesson18_fragment" />
+    <fragment
+        android:id="@+id/lesson19Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson19Fragment"
+        android:label="lesson19_fragment"
+        tools:layout="@layout/lesson19_fragment" />
+    <fragment
+        android:id="@+id/lesson20Fragment"
+        android:name="com.example.android.navigation.screens.tajvid.Lesson20Fragment"
+        android:label="lesson20_fragment"
+        tools:layout="@layout/lesson20_fragment" />
 </navigation>

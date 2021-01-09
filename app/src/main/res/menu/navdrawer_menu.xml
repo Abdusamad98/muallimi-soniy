@@ -22,6 +22,6 @@
         android:title="@string/rules" />
     <item
         android:id="@+id/aboutFragment"
-        android:icon="@drawable/android"
+        android:icon="@drawable/abc_vector_test"
         android:title="@string/about" />
 </menu>
