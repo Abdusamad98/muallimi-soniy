@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_titleFragment_to_tajveedHomeFragment"
             app:destination="@id/tajveedHomeFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_lesson19Fragment"
+            app:destination="@id/lesson19Fragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
@@ -29,12 +32,12 @@
     <fragment
         android:id="@+id/rulesFragment"
         android:name="com.example.android.navigation.screens.RulesFragment"
-        android:label="@string/title_trivia_rules"
+        android:label="Foydalanish tartibi"
         tools:layout="@layout/fragment_note" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.android.navigation.screens.AboutFragment"
-        android:label="@string/title_about_trivia"
+        android:label="Ilova haqida"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/tajveedHomeFragment"
@@ -73,6 +76,42 @@
             android:id="@+id/action_tajveedHomeFragment_to_lesson10Fragment"
             app:destination="@id/lesson10Fragment" />
 
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson11Fragment"
+            app:destination="@id/lesson11Fragment" />
+
+
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson12Fragment"
+            app:destination="@id/lesson12Fragment" />
+
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson13Fragment"
+            app:destination="@id/lesson13Fragment" />
+
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson14Fragment"
+            app:destination="@id/lesson14Fragment" />
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson15Fragment"
+            app:destination="@id/lesson15Fragment" />
+
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson16Fragment"
+            app:destination="@id/lesson16Fragment" />
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson17Fragment"
+            app:destination="@id/lesson17Fragment" />
+
+        <action
+            android:id="@+id/action_tajveedHomeFragment_to_lesson18Fragment"
+            app:destination="@id/lesson18Fragment" />
+
 
 
 
@@ -81,101 +120,102 @@
     <fragment
         android:id="@+id/lesson1Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson1Fragment"
-        android:label="Madli harflar"
+        android:label="1-dars"
         tools:layout="@layout/lesson1_fragment" />
     <fragment
         android:id="@+id/lesson2Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson2Fragment"
-        android:label="Tashdidli harflar"
+        android:label="2-dars"
         tools:layout="@layout/lesson2_fragment" />
     <fragment
         android:id="@+id/lesson3Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson3Fragment"
-        android:label="Tanvinli harflar"
+        android:label="3-dars"
         tools:layout="@layout/lesson3_fragment" />
     <fragment
         android:id="@+id/lesson4Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson4Fragment"
-        android:label="Tanvinli tashdid"
+        android:label="4-dars"
         tools:layout="@layout/lesson4_fragment" />
     <fragment
         android:id="@+id/lesson5Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson5Fragment"
-        android:label="Alif va hamza"
+        android:label="5-dars"
         tools:layout="@layout/lesson5_fragment" />
     <fragment
         android:id="@+id/lesson6Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson6Fragment"
-        android:label="lesson6_fragment"
+        android:label="6-dars"
         tools:layout="@layout/lesson6_fragment" />
     <fragment
         android:id="@+id/lesson7Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson7Fragment"
-        android:label="lesson7_fragment"
+        android:label="7-dars"
         tools:layout="@layout/lesson7_fragment" />
     <fragment
         android:id="@+id/lesson8Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson8Fragment"
-        android:label="lesson8_fragment"
+        android:label="8-dars"
         tools:layout="@layout/lesson8_fragment" />
     <fragment
         android:id="@+id/lesson9Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson9Fragment"
-        android:label="lesson9_fragment"
+        android:label="9-dars"
         tools:layout="@layout/lesson9_fragment" />
     <fragment
         android:id="@+id/lesson10Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson10Fragment"
-        android:label="lesson10_fragment"
+        android:label="10-dars"
         tools:layout="@layout/lesson10_fragment" />
     <fragment
         android:id="@+id/lesson11Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson11Fragment"
-        android:label="lesson11_fragment"
+        android:label="11-dars"
         tools:layout="@layout/lesson11_fragment" />
     <fragment
         android:id="@+id/lesson12Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson12Fragment"
-        android:label="lesson12_fragment"
+        android:label="12-dars"
         tools:layout="@layout/lesson12_fragment" />
     <fragment
         android:id="@+id/lesson13Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson13Fragment"
-        android:label="lesson13_fragment"
+        android:label="13-dars"
         tools:layout="@layout/lesson13_fragment" />
     <fragment
         android:id="@+id/lesson14Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson14Fragment"
-        android:label="lesson14_fragment"
+        android:label="14-dars"
         tools:layout="@layout/lesson14_fragment" />
     <fragment
         android:id="@+id/lesson15Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson15Fragment"
-        android:label="lesson15_fragment"
+        android:label="15-dars"
         tools:layout="@layout/lesson15_fragment" />
     <fragment
         android:id="@+id/lesson16Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson16Fragment"
-        android:label="lesson16_fragment"
+        android:label="16-dars"
         tools:layout="@layout/lesson16_fragment" />
     <fragment
         android:id="@+id/lesson17Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson17Fragment"
-        android:label="lesson17_fragment"
+        android:label="17-dars"
         tools:layout="@layout/lesson17_fragment" />
     <fragment
         android:id="@+id/lesson18Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson18Fragment"
-        android:label="lesson18_fragment"
+        android:label="18-dars"
         tools:layout="@layout/lesson18_fragment" />
     <fragment
         android:id="@+id/lesson19Fragment"
         android:name="com.example.android.navigation.screens.tajvid.Lesson19Fragment"
-        android:label="lesson19_fragment"
-        tools:layout="@layout/lesson19_fragment" />
-    <fragment
-        android:id="@+id/lesson20Fragment"
-        android:name="com.example.android.navigation.screens.tajvid.Lesson20Fragment"
-        android:label="lesson20_fragment"
-        tools:layout="@layout/lesson20_fragment" />
+        android:label="Ba'zi suralar"
+        tools:layout="@layout/surah_list_fragment" >
+    </fragment>
+
+
+
+
+
 </navigation>

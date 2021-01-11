@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center"
+        android:id="@+id/surah_name"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_margin="12dp"
+        android:textColor="@color/ink"
+        android:text="Tashdidli harflar"
+        android:background="@drawable/button_bordered_white"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

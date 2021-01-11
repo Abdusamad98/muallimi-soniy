@@ -21,10 +21,9 @@
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
     <string name="android_trivia">Muallimi Soniy</string>
-    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
-    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
-    <string name="rules">Rules</string>
-    <string name="about">About</string>
+     <string name="rules_text">Tajvid saboqlarini o\'rganishlik uchun, avval harflarni chiroyli o\'qimoq va har bir harfni joy joyidan chiqarishni uddalamoq kerak. Undan keyin Tajvid saboqlari qismiga o\'tib berilgan so\'zlarning talaffuziga e\'tiborli bo\'lib hamda  qoidalrni yodda tutib asta sekinlik  bilan o\'zlashtirish lozim. </string>
+    <string name="rules">Yo\'riqnoma</string>
+    <string name="about">Ilova haqida</string>
     <string name="trivia_hint">Trivia Hint</string>
     <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
     <string name="title_about_trivia">About Trivia</string>
@@ -36,11 +35,11 @@
     <string name="sharing_not_available">Sharing Not Available</string>
     <string name="search">Search</string>
     <string name="something">Something</string>
-    <string name="_1_pora_qur_on">1 pora Qur\'on</string>
-    <string name="tajvid_ilmi">Tajvid ilmi</string>
+    <string name="_1_pora_qur_on">Qur\'ondan suralar</string>
+    <string name="tajvid_ilmi">Tajvid saboqlari</string>
     <string name="alifbo">Alifbo</string>
     <string name="muallimi_soniy_1892">معلمثانى ١٨٩٢</string>
-    <string name="harflar">harflar</string>
+    <string name="harflar">Harflar</string>
     <string name="bismillah">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</string>
     <string name="mad_1_descr">Yuqoridagi darsni diqqat bilan o\'rganing. Zero bu darsni puhta o\'zlashtirish keyingi darslarni o\'rganish uchun poydevordir.</string>
 
@@ -120,7 +119,7 @@
 
     <string name="tashdid_text">Arab tilida ikki bir xil harf yonma yon kelib birinchisi sukunli, keyingisi harakatli bo\'lsa yozuvda ularning biri yozilib ustiga tashdid belgisi qo\'yiladi. Undosh o\'qilganda ikkilantirib (ikkita qilib) o\'qiladi. Ana shu ikkilantirish belgisi \'tashdid\' deyiladi. </string>
 
-    <string name="tashdid">رَبَّ ــ  رَبْبَ\u0020\u0020\u0020رَبِّ ــ رَبْبِ\u0020\u0020\u0020رَبُّ ــ  رَبْبُ\u0020\u0020\u0020  اِنَّ  \u0020\u0020\u0020  اَنَّ   \u0020\u0020\u0020 اَمَّ   \u0020\u0020\u0020 بَرَّ   \u0020\u0020\u0020 جَرَّ  \u0020\u0020\u0020  حَجَّ  \u0020\u0020\u0020  شَكَّ   \u0020\u0020\u0020 بَرُّ   \u0020\u0020\u0020 جَرُّ   \u0020\u0020\u0020 حَجُّ   \u0020\u0020\u0020 شَكُّ   \u0020\u0020\u0020 ذَمُّ   \u0020\u0020\u0020  حَقُّ  \u0020\u0020\u0020  شَرُّ   \u0020\u0020\u0020 بِرُّ   \u0020\u0020\u0020 سِرُّ   \u0020\u0020\u0020 سِتُّ   \u0020\u0020\u0020 عِزُّ  \u0020\u0020\u0020  طِلُّ   \u0020\u0020\u0020 حِلُّ  \u0020\u0020\u0020  حِسُّ   \u0020\u0020\u0020 بُرُّ   \u0020\u0020\u0020  دُرُّ  \u0020\u0020\u0020  خَفُّ   \u0020\u0020\u0020  كُلُّ  \u0020\u0020\u0020  دُبُّ  \u0020\u0020\u0020  زُقُّ  \u0020\u0020\u0020  اُمُّ   \u0020\u0020\u0020 بُرَّ   \u0020\u0020\u0020 ذُمَّ  \u0020\u0020\u0020  سُبَّ  \u0020\u0020\u0020  فُكَّ   \u0020\u0020\u0020 سُرَّ  \u0020\u0020\u0020  سُمَّ  \u0020\u0020\u0020  ثُمَّ   \u0020\u0020\u0020  بُرِّ   \u0020\u0020\u0020 دُرِّ   \u0020\u0020\u0020 خَفِّ   \u0020\u0020\u0020 كُلِّ   \u0020\u0020\u0020 دُبِّ  \u0020\u0020\u0020  زُقِّ  \u0020\u0020\u0020  ضُرِّ  \u0020\u0020\u0020  دَبَّرَ   \u0020\u0020\u0020 كَثَّرَ  \u0020\u0020\u0020  فَجَّرَ   \u0020\u0020\u0020  وَحَّدَ  \u0020\u0020\u0020  سَخَّرَ  \u0020\u0020\u0020 اَدَّبَ   \u0020\u0020\u0020 حَرَّمَ  \u0020\u0020\u0020 رَزَّقَ   \u0020\u0020\u0020 يَسَّرَ  \u0020\u0020\u0020  بَشَّرَ  \u0020\u0020\u0020  فَصَّلَ  \u0020\u0020\u0020  فَضَّلَ  \u0020\u0020\u0020 عَطَّرَ  \u0020\u0020\u0020 عَظَّمَ  \u0020\u0020\u0020  نَعَّمَ   \u0020\u0020\u0020 كَفَّنَ  \u0020\u0020\u0020  لَقَّبَ  \u0020\u0020\u0020  ذَكَّرَ  \u0020\u0020\u0020  شَمَّرَ   \u0020\u0020\u0020 عَلَّمَ   \u0020\u0020\u0020 كَمَّلَ  \u0020\u0020\u0020  صَنَّفَ  \u0020\u0020\u0020  صَوَّرَ  \u0020\u0020\u0020  غَيَّرَ
+    <string name="tashdid">رَبَّ ــ  رَبْبَ\u0020\u0020\u0020رَبِّ ــ رَبْبِ\u0020\u0020\u0020رَبُّ ــ  رَبْبُ\u0020\u0020\u0020  اِنَّ  \u0020\u0020\u0020  اَنَّ   \u0020\u0020\u0020 اَمَّ   \u0020\u0020\u0020 بَرَّ   \u0020\u0020\u0020 جَرَّ  \u0020\u0020\u0020  حَجَّ  \u0020\u0020\u0020  شَكَّ   \u0020\u0020\u0020 بَرُّ   \u0020\u0020\u0020 جَرُّ   \u0020\u0020\u0020 حَجُّ   \u0020\u0020\u0020 شَكُّ   \u0020\u0020\u0020 ذَمُّ   \u0020\u0020\u0020  حَقُّ  \u0020\u0020\u0020  شَرُّ   \u0020\u0020\u0020 بِرُّ   \u0020\u0020\u0020 سِرُّ   \u0020\u0020\u0020 سِتُّ   \u0020\u0020\u0020 عِزُّ  \u0020\u0020\u0020  طِلُّ   \u0020\u0020\u0020 حِلُّ  \u0020\u0020\u0020  حِسُّ   \u0020\u0020\u0020 بُرُّ   \u0020\u0020\u0020  دُرُّ  \u0020\u0020\u0020  خَفُّ   \u0020\u0020\u0020  كُلُّ  \u0020\u0020\u0020  دُبُّ  \u0020\u0020\u0020  زُقُّ  \u0020\u0020\u0020  اُمُّ   \u0020\u0020\u0020 بُرَّ   \u0020\u0020\u0020 ذُمَّ  \u0020\u0020\u0020  سُبَّ  \u0020\u0020\u0020  فُكَّ   \u0020\u0020\u0020 سُرَّ  \u0020\u0020\u0020  سُمَّ  \u0020\u0020\u0020  ثُمَّ   \u0020\u0020\u0020  بُرِّ   \u0020\u0020\u0020 دُرِّ   \u0020\u0020\u0020 خُفِّ  \u0020\u0020\u0020 كُلِّ   \u0020\u0020\u0020 دُبِّ  \u0020\u0020\u0020  زُقِّ  \u0020\u0020\u0020  ضُرِّ  \u0020\u0020\u0020  دَبَّرَ   \u0020\u0020\u0020 كَثَّرَ  \u0020\u0020\u0020  فَجَّرَ   \u0020\u0020\u0020  وَحَّدَ  \u0020\u0020\u0020  سَخَّرَ  \u0020\u0020\u0020 اَدَّبَ   \u0020\u0020\u0020 حَرَّمَ  \u0020\u0020\u0020 رَزَّقَ   \u0020\u0020\u0020 يَسَّرَ  \u0020\u0020\u0020  بَشَّرَ  \u0020\u0020\u0020  فَصَّلَ  \u0020\u0020\u0020  فَضَّلَ  \u0020\u0020\u0020 عَطَّرَ  \u0020\u0020\u0020 عَظَّمَ  \u0020\u0020\u0020  نَعَّمَ   \u0020\u0020\u0020 كَفَّنَ  \u0020\u0020\u0020  لَقَّبَ  \u0020\u0020\u0020  ذَكَّرَ  \u0020\u0020\u0020  شَمَّرَ   \u0020\u0020\u0020 عَلَّمَ   \u0020\u0020\u0020 كَمَّلَ  \u0020\u0020\u0020  صَنَّفَ  \u0020\u0020\u0020  صَوَّرَ  \u0020\u0020\u0020  غَيَّرَ
 \n..............................\n
 دُبِّرَ   \u0020\u0020\u0020 كَثِّرَ    \u0020\u0020\u0020 فُجِّرَ   \u0020\u0020\u0020 وُحِّدَ   \u0020\u0020\u0020 سُخِّرَ   \u0020\u0020\u0020 اُدِّبَ   \u0020\u0020\u0020 حُرِّمَ   \u0020\u0020\u0020 رُزِّقَ  \u0020\u0020\u0020  يُسِّرَ  \u0020\u0020\u0020  بُشِّرَ  \u0020\u0020\u0020  فُصِّلَ  \u0020\u0020\u0020  فُضِّلَ   \u0020\u0020\u0020 عُطِّرَ  \u0020\u0020\u0020  عُظِّمَ  \u0020\u0020\u0020  نُعِّمَ   \u0020\u0020\u0020 كُفِّنَ   \u0020\u0020\u0020 لُقِّبَ    \u0020\u0020\u0020 ذُكِّرَ   \u0020\u0020\u0020 عُلِّمَ   \u0020\u0020\u0020  كُمِّلَ  \u0020\u0020\u0020  شُمِّرَ   \u0020\u0020\u0020 صُنِّفَ  \u0020\u0020\u0020  صُوِّرَ  \u0020\u0020\u0020  غُيِّرَ
 \n..............................\n
@@ -141,16 +140,12 @@
     </string>
 
 
-
     <string name="tanvin_qoida">Usti yoki ostida tanvin alomatlaridan biri kelgan harfdan so\'ng bir sukunli harakatsiz nun orttirib o\'qiladi.</string>
-
 
 
     <string name="tanvinli_tashdid">
         رَبًّا = رَبْبَنْ  \u0020\u0020\u0020 رَبٍّ = رَبْبٍ  \u0020\u0020\u0020  \n رَبٌّ = رَبْبُنْ \u0020\u0020\u0020  حَبًّا \u0020\u0020\u0020 بَرًّا \u0020\u0020\u0020 جَرًّا \u0020\u0020\u0020 مَسًّا \u0020\u0020\u0020 كَفًّا \u0020\u0020\u0020 مَنًّا  \u0020\u0020\u0020 سِتٍّ \u0020\u0020\u0020 سِرٍّ \u0020\u0020\u0020 حِلٍّ \u0020\u0020\u0020 حِسٍّ \u0020\u0020\u0020 عِزٍّ \u0020\u0020\u0020 بِرٍّ \u0020\u0020\u0020 دُرٌّ \u0020\u0020\u0020 ذُلٌّ  \u0020\u0020\u0020اُمٌّ \u0020\u0020\u0020خُفٌّ \u0020\u0020\u0020 بُرٌّ \u0020\u0020\u0020 كُلٌّ \u0020\u0020\u0020 مُبْيَضًّا \u0020\u0020\u0020 مُسْوَدٍّ \u0020\u0020\u0020 مُصْفًرٌّ \u0020\u0020\u0020 مُحْمَرًّا \u0020\u0020\u0020 مُخْضَرٍّ\u0020\u0020\u0020 مُهْتَزًّا\u0020\u0020\u0020  مُحْتَجٍّ \u0020\u0020\u0020 مُنْسَدٌّ \u0020\u0020\u0020 مُضْطَرٍّ \u0020\u0020\u0020 مُخْتَصٌّ\u0020\u0020\u0020 مُسْتَرِدًّا\u0020\u0020\u0020 مُسْتَحِبٍّ\u0020\u0020\u0020 مُسْتَحِلٌّ \u0020\u0020\u0020 مُسْتَدِلاًّ\u0020\u0020\u0020  مُسْتَعِدٍّ
     </string>
-
-
 
 
     <string name="alif_va_hamza">
@@ -160,9 +155,7 @@
     </string>
 
 
-
     <string name="alif_va_hamzaning_to_qqizta_ko_rinishi_mavjud_bu_shakllar_qur_oni_karimning_turli_nusxalarida_uchraydi_quiyida_ular_bilan_tanishamiz">Alif va hamzaning to\'qqizta ko\'rinishi mavjud. Bu shakllar Qur\'oni karimning turli nusxalarida uchraydi.Quiyida ular bilan tanishamiz.</string>
-
 
 
     <string name="toi_martuba">
@@ -175,5 +168,65 @@
     </string>
     <string name="alifi_muqoddara">Ustida fatha alomati bilan tikka yozilgan alif harfi huddi alif kabi cho\'zib o\'qiladi.</string>
 
+    <string name="yoi_muqaddara">بِهٖ  ( ﺑِﻬٖﻰ ) \u0020\u0020\u0020 بِاَمْرِهٖ  \u0020\u0020\u0020   بِحُكْمِهٖ  \u0020\u0020\u0020   بِقُدْرَتِهٖ \u0020\u0020\u0020   هٰذِهٖ</string>
+
+    <string name="vovi_muqaddara">لَهۥ   ( لَهۥو)  \u0020\u0020\u0020 اَمْرُهۥ  \u0020\u0020\u0020  حُكْمُهۥ  \u0020\u0020\u0020  قُدْرَتُهۥ  \u0020\u0020\u0020  مٰالُهۥ  \u0020\u0020\u0020  دٰاوۥدْ \u0020\u0020\u0020  طَاوۥسْ  \u0020\u0020\u0020 رُؤۥسْ \u0020\u0020\u0020  يَقْرَؤۥنَ
+    </string>
+    <string name="yoi_alififya">
+        اِلٰى \u0020\u0020\u0020 عَلٰى \u0020\u0020\u0020 لَدٰى \u0020\u0020\u0020 مَتٰى \u0020\u0020\u0020 اَنّٰى \u0020\u0020\u0020 حَتّٰى \u0020\u0020\u0020  شَتّٰى \u0020\u0020\u0020 تَعٰالٰى \u0020\u0020\u0020 اَعْلٰى \u0020\u0020\u0020 مُوسٰى  \u0020\u0020\u0020 ٖعيسٰى  \u0020\u0020\u0020 يَحْيٰى \u0020\u0020\u0020 مُرْتَضٰى \u0020\u0020\u0020 يَتَزَكّٰى \u0020\u0020\u0020  فَتَرْضٰى \u0020\u0020\u0020 سَوّٰيهَا\u0020\u0020\u0020 دَسّٰيهَا \u0020\u0020\u0020  زَكّٰيْهَا \u0020\u0020\u0020 فَسَوّٰيْهَا  \u0020\u0020\u0020 عُقْبٰيْ
+    </string>
+
+    <string name="vovi_alifiya">
+صَلٰوةٌ \u0020\u0020\u0020  زَكٰوةٌ  \u0020\u0020\u0020 ذَكٰوةٌ  \u0020\u0020\u0020 حَيٰوةٌ \u0020\u0020\u0020 غَدٰوةٌ  \u0020\u0020\u0020 رِبٰوا
+    </string>
+
+    ///Yozilsada o'qilmaydi
+
+    <string name="text3">
+بِالغَيْبِ \u0020\u0020\u0020 وَبِالاٰخِرَةِ \u0020\u0020\u0020  كَالْفَرٰاشِ  \u0020\u0020\u0020 وَالعَصْرِ \u0020\u0020\u0020  وَانْحَرْ \u0020\u0020\u0020 وَالْمُشْرِكِيْنَ \u0020\u0020\u0020  رَبِّ العٰالَمِيْنَ \u0020\u0020\u0020  صِرٰاطَالَّذِيْنَ \u0020\u0020\u0020  غَيْرِالمَغْضُوبِ \u0020\u0020\u0020هُمُالمُفْلِحُونَ \u0020\u0020\u0020  لَيْلَةُالقَدْرِ \u0020\u0020\u0020 حَذَرَالمَوْتِ  \u0020\u0020\u0020 وَاِذِاسْتَسْقٰى  \u0020\u0020\u0020 اَنْفُسَكُمُاسْتَكْبَرْتُمْ
+    </string>
+
+    <string name="text4">اَلتَّبَعُ \u0020\u0020\u0020 اَلثَّمَرُ \u0020\u0020\u0020 اَلدَّخَلُ \u0020\u0020\u0020 اَلذَّهَبُ \u0020\u0020\u0020 اَلرَّصَدُ \u0020\u0020\u0020 اَلزَّبَدُ \u0020\u0020\u0020 اَلسَّفَرُ \u0020\u0020\u0020 اَلشَّجَرُ \u0020\u0020\u0020 اَلصَّفَرُ \u0020\u0020\u0020 اَلضَّرَرُ \u0020\u0020\u0020 اَلطَّلَبُ \u0020\u0020\u0020 اَلظَّفَرُ \u0020\u0020\u0020 اَللَّهَبُ \u0020\u0020\u0020 اَلنَّسَبُ   </string>
+    <string name="text5">
+    هُوَالتَّبَعُ  \u0020\u0020\u0020 هُوَالثَّمَرُ \u0020\u0020\u0020 هُوَالدَّخَلُ \u0020\u0020\u0020  هُوَالذَّهَبُ \u0020\u0020\u0020 هُوَالرَّصَدُ  \u0020\u0020\u0020 هُوَالزَّبَدُ  \u0020\u0020\u0020 هُوَالسَّفَرُ \u0020\u0020\u0020 هُوَالشَّجَرُ \u0020\u0020\u0020 هُوَالصَّفَرُ \u0020\u0020\u0020  هُوَالضَّرَرُ \u0020\u0020\u0020 هُوَالطَّلَبُ \u0020\u0020\u0020 هُوَالظَّفَرُ \u0020\u0020\u0020 هُوَاللَّهَبُ \u0020\u0020\u0020 هُوَالنَّسَبُ
+</string>
+
+
+    <string name="text6">
+        هٰذَا البَلَدُ \n مَا القٰارِعَةُ \n  مَا الحُطَمَةُ \n هٰذَا الَّذِي
+ \n مَنْ ذَا الَّذِي \n تَحْتِهَا الاَنْهٰارُ \n فَقُلْنٰا اضْرِبْ
+\n بِئْسَ الاِسْمُ (*) \n اِهْدِنَا الصِّرٰاطَ \n يٰاءَيُّهٰا النَّاسُ
+اِلَى النّٰاسِ \nعَلَى النّٰاسِ \n فِى الاَرْضِ \n فِى الصُّدُورِ \n
+قَالُوا اتَّخَذَ \n قَالُوا ادْعُ \n لَقُوا الَّذِيْنَ \n اُوتُوا الكِتٰبَ \n
+وَاَقِيمُوا الصَّلٰوةَ \n وَاٰتُوا الزَّكٰوةَ \n وَعَمِلُوا الصّٰلحٰتِ
+    </string>
+
+
+    <string name="vasl">
+   اِهْدِنَا الصِّرٰاطَ المُسْتَقِيْمَ \n وَهَذَا البَلَدِ الاَمِيْنِ \n  نٰارُ اللّهِ المُوقَدَةُ \n  كَمَثَلِ الَّذِي اسْتَوْقَدَ \n فَاتَّقُوا النّٰارَ الَّتِي  \n هُوَ التَّوٰابُ الرَّحِيْمُ \n ذُو الفَضْلِ العَظِيمِ  \n اَنْتَ العَزِيْزُ الْحَكِيْمُ
+
+    </string>
+    <string name="vaqf">
+        نَسْتَعِيْنُ *،  \n  يُؤْمِنُونَ *،     \n يَعْلَمُونَ *،     \n  نَسْتَعِينْ * \n  يُؤْمِنُونْ *،    \n يَعْلَمُونْ *،    \n  نَسْتَعِينْ *،   \n  يُؤْمِنُونْ *،   \n  يَعْلَمُونْ *،   \n يُسْرٰا *،     \n اَبَدٰا *،    \n  تَوّٰابٰا *  \n غِشٰاوَةْ * \n  حٰامِيَةْ *،   \n  مُمَدَّدَةْ *
+    </string>
+    <string name="mad">
+        سٰاۤءَ \t شٰاۤءَ \t جٰاۤءَ \t اُولٰئِۤكَ \t هٰؤُلاٰۤءِ \u0020\u0020\u0020 سَوٰاۤءٌ \u0020\u0020\u0020 سٰاۤئِلٌ \u0020\u0020\u0020  يَاۤءَيُّهَا  \u0020\u0020\u0020 اِسْرٰ ۤئِيْلَ  \u0020\u0020\u0020  جَبْرٰ ۤئِيْلُ  \u0020\u0020\u0020 مِيْكٰاۤئِيْلُ  \u0020\u0020\u0020 سِىۤءَ \u0020\u0020\u0020 جِىۤءَ \u0020\u0020\u0020  سِيۤئَتْ  \u0020\u0020\u0020 سُوۤءَ \u0020\u0020\u0020 اَبُوۤءَ
+    </string>
+    <string name="idgom1">
+        (مِنْ مَسَدٍ) = (مِمْ مَسَدٍ)  \n (لَنْ نُؤْمِنَ) = (لَنْنُؤْمِنَ)  \n (مِنْ وَلِيٍّ) = (مِوْوَلِىٍّ)  \n (وَمَنْ يَعْمَلْ) = (وَمَى يَعْمَلْ) \n (وَمَنْ لَمْ) = (وَمَلْ لَمْ)\n (مِنْ رَبِّهِمْ) = (مِرْ رَبِّهِمْ) \n  (هُدًى مِنْ) = (هُدَمْ مِنْ)  \n (شَيْئًا نُكْرًا) = (شَيْئَنْنُكْرًا)    (اِلٰهٌ وَاحِدٌ) = (اِلٰهُو وٰاحِدٌ) \n(خَيْرًا يَرَهُ) = (خَيْرَى يَرَهُ) \n(هُدًىلِلمُتَّقِيْنَ)=(هُدَلللمُتَّقِيْنَ)\n(غَفُورٌ رَحِيْمٌ) = (غَفُورٌ رَحِيْمٌ)
+    </string>
+
+    <string name="iqlob1">
+       (مِنْ بَعْدِ)=(مِمْ بَعْدِ)\n(سَمِيْعٌ بَصِيْرٌ)=(سَمِيْعُمْ بَصِيْرٌ)
+    </string>
+    <string name="iqlob2">
+عَبْدُ اللهِ=عَبْدُوللّٰاهِ \n عُبَيْدُ اللهِ=عُبَيْدُوللّٰاهِ \n  فَضْلُ اللهِ  \n فَيْضُ اللهِ  \n خَيْرُ اللهِ  \n نَصْرُ اللهِ  \n  رَحْمَةُ اللهِ  \n زِيْنَةُ اللهِ \n نِعْمَةُ اللهِ  \n عِزَّةُ اللهِ   \n لُطْفُ اللهِ  \n عِنَايَةُ اللهِ  \n  هِدَايَةُ اللهِ  \n  عَطِيَّةُ اللهِ
+    </string>
+
+    <string name="muqatta">
+        الۤمۤ=الف،لام،ميم \nاﻟۤ ﻣۤ صۤ =الف،لام،ميم،صاد \nاﻟۤ ر= الف،لاۤم،را \nاﻟۤ ﻣۤ ر=الف، لام، ميم، را\n
+ﻛۤ ﻬ ﻴ ﻌۤ صۤ =\n= كاف،ها،ياعين صاد  \n  ط ﻪ = طاها \n ط ﺴۤ ﻢۤ = طاسين ميم \n  ﻃ سۤ = طا سين \n ﻳ سۤ= يا سين  \n  صۤ= صاد \n ﺣ ﻢۤ = حا ميم \n ﺣ ﻢۤ ﻋۤ ﺴۤ ﻖۤ=\n= حا ميم عين سين قاف \n  ﻖۤ = قاۤف \n نۤ = نونۤ
+    </string>
+    <string name="about_text">Albatta har bir musulmon kishi muqaddas kitobimiz Qur\’oni Karimni tajvid bilan xatosiz qiroat qilishlikni hohlaydi. Qo\’lingizdagi ushbu ilova sizga bu ilmni o\’rganish uchun biroz bo\’lsada yordam berar deb umid qilamiz.\nBu ilova o\’sha mashhur Muallimi Soniy kitobining ovozli shakli bo\’lib, undan maqsad, o\’quvchiga tajvid ilmini tez va oson o\’zlashtirishga yordam berishdir.\nDasturda O\’zbekiston Respublikasi Vazirlar Mahkamasining huzuridagi Din ishlari bo’yicha Qo\’mitaning 3075 raqamli xulosasi asosida nashr etilgan “Muallimi Soniy” kitobi va MP3 diskidan foydalanildi. \nHarflar va Tajvid Saboqlari matnlarini Jahongir Qori Ne\’matov o\’qigan\nBerilgan Qur\’on suralarini esa Mahmud Halil al-Hussariy qiroatidan olingan.\n Ilovada bo\'lishi mumkin bo\'lgan kamchiliklar yoki fikr mulohazalar yuzasidan @android_developer1_98 telegram manziliga murojaat qilishingiz mumkin.  </string>
 
 </resources>

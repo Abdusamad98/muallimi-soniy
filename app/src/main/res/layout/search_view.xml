@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="16dp"
+        android:id="@+id/recyclerSearch"
+       app:layout_constraintBottom_toTopOf="@id/close_search"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/close_search"
+       android:layout_width="wrap_content"
+       android:text="Yopish"
+       android:layout_margin="12dp"
+       android:textColor="@color/white"
+       android:textSize="16sp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       android:background="@drawable/button_back_ink"
+       android:gravity="center"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.screens.tajvid.Lesson5Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Alif va Hamza"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/alif_va_hamzaning_to_qqizta_ko_rinishi_mavjud_bu_shakllar_qur_oni_karimning_turli_nusxalarida_uchraydi_quiyida_ular_bilan_tanishamiz"
+                android:textColor="@color/ink"
+                android:textSize="24sp"/>
+
+
+            <SeekBar
+                android:id="@+id/seekbar_1"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_gravity="center"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/play_button_green" />
+
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="20dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/ink"
+                android:textSize="60sp"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

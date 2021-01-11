@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.screens.tajvid.Lesson12Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Yozilsada o'qilmaydigan \nharflar"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Ushbu so'zlar boshidagi alif harfi vov bilan yozilgan bo'lsada, vov  mad qilinmaydi. Balki oddiy zamma kabi o'qiladi. Qur'onda ular ustiga ushbu belgi (o) qo'yiladi."
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+
+            <SeekBar
+                android:id="@+id/seekbar_1"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb" />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/play_button_green" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/yozilsada_oqilmaydi_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Shuningdek, so'zlar oxiridagi kalimalarning jam (ko'plik) alomati bo'lgan vovdan keyingi alif ham o'qilmaydi.Masalan: "
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/yozilsada_oqilmaydi_2"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Quyidagi misollar kabi so'zlarda ham o'rtadagi alif o'qilmaydi.Masalan:"
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="45dp"
+                android:padding="8dp"
+                android:textColor="@color/ink"
+                android:textSize="45sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Quyidagi misollar kabi so'zlarda ham o'rtadagi lam o'qilmaydi.Masalan:"
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="45dp"
+                android:padding="8dp"
+                android:textColor="@color/ink"
+                android:textSize="45sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Quyidagi misollar kabi so'zlarda ham o'rtadagi alif va lomlari o'qilmaydi.Masalan:"
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="45dp"
+                android:padding="8dp"
+                android:textColor="@color/ink"
+                android:textSize="45sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="Quyidagi misollar kabi so'zlarda qo'shib o'qilganda,avval kelayotgan so'z mad harflari bilan tugagan bo'lsa ham, keyingi so'zning bosh harfi bilan yopiq bo'g'in hosil qilgani uchun ula qisqa unli kabi o'qiladi. Bunday hollarda ikkita harf o'qilmay tushurib qoldiriladi. Masalan:"
+                android:textColor="@color/ink"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="45dp"
+                android:padding="8dp"
+                android:textColor="@color/ink"
+                android:textSize="45sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

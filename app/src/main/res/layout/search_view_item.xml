@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:id="@+id/letter_pronouns_search"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="@drawable/button_bordered_white"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/letter_lotin_search"
+            android:layout_width="wrap_content"
+            android:text="ZA harfi"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/ink"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/letter_search"
+            android:text="ن"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="@color/ink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

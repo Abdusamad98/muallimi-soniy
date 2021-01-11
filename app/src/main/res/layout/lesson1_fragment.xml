@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.screens.tajvid.Lesson1Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Mad Harflari"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10dp"
+                android:padding="8dp"
+                android:text="Mad Harflari"
+                android:textColor="@color/ink"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@id/textTitle" />
+
+
+
+            <TextView
+                android:id="@+id/text_bolum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="1- bo'lim"
+                app:layout_constraintTop_toBottomOf="@id/text_1"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                 />
+
+
+
+
+
+            <SeekBar
+                android:id="@+id/seekbar_1"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_bolum" />
+
+
+            <ImageView
+                android:id="@+id/image_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/play_button_green"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seekbar_1" />
+
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="15dp"
+                android:textColor="@color/ink"
+                android:textSize="36sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_1" />
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="15dp"
+                android:textColor="@color/ink"
+                android:textSize="36sp"
+                app:layout_constraintLeft_toRightOf="@id/text_2"
+                app:layout_constraintTop_toBottomOf="@id/image_1" />
+
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:padding="8dp"
+                android:text="@string/mad_1_descr"
+                android:textColor="@color/ink"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_3" />
+
+
+            <TextView
+                android:id="@+id/text_bolum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="2- bo'lim"
+                app:layout_constraintTop_toBottomOf="@id/text_4"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+
+
+
+            <SeekBar
+                android:id="@+id/seekbar_2"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_bolum1" />
+
+
+            <ImageView
+                android:id="@+id/image_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/play_button_green"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seekbar_2" />
+
+
+
+            <TextView
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_2"
+                android:id="@+id/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="20dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/ink"
+                android:textSize="36sp"
+                 />
+
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</layout>
