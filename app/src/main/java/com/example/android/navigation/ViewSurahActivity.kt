@@ -1,11 +1,8 @@
 package com.example.android.navigation
-
-import android.media.Image
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.SeekBar
 import android.widget.TextView
